@@ -14,6 +14,7 @@
 		7308F6BA2B6D9A2200E5140F /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7308F6B92B6D9A2200E5140F /* ExploreView.swift */; };
 		7308F6BC2B6D9AD300E5140F /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7308F6BB2B6D9AD300E5140F /* ListingItemView.swift */; };
 		7308F6BE2B6D9FA700E5140F /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7308F6BD2B6D9FA700E5140F /* Explore.swift */; };
+		7308F6C02B6DACB300E5140F /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7308F6BF2B6DACB300E5140F /* SearchAndFilterBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7308F6B92B6D9A2200E5140F /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		7308F6BB2B6D9AD300E5140F /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
 		7308F6BD2B6D9FA700E5140F /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
+		7308F6BF2B6DACB300E5140F /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				7308F6B92B6D9A2200E5140F /* ExploreView.swift */,
+				7308F6BF2B6DACB300E5140F /* SearchAndFilterBar.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7308F69F2B6D975300E5140F /* ContentView.swift in Sources */,
+				7308F6C02B6DACB300E5140F /* SearchAndFilterBar.swift in Sources */,
 				7308F6BC2B6D9AD300E5140F /* ListingItemView.swift in Sources */,
 				7308F6BE2B6D9FA700E5140F /* Explore.swift in Sources */,
 				7308F6BA2B6D9A2200E5140F /* ExploreView.swift in Sources */,

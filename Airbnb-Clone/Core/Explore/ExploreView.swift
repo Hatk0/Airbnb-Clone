@@ -4,6 +4,8 @@ struct ExploreView: View {
     var body: some View {
         NavigationStack {
             ScrollView(.vertical) {
+                SearchAndFilterBar()
+                
                 LazyVStack(spacing: 32) {
                     ForEach(Explore.explore, id: \.self) { listing in
                         ListingItemView(explore: listing)
