@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Airbnb-Clone
-//
-//  Created by Dmitry Yastrebov on 03.02.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
