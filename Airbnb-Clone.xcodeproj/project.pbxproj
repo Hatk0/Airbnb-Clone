@@ -27,6 +27,11 @@
 		7323B90D2B6E7DA100A195EF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323B90C2B6E7DA100A195EF /* MapView.swift */; };
 		7323B90F2B6E809500A195EF /* SectionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323B90E2B6E809500A195EF /* SectionGroup.swift */; };
 		7323B9112B6EB1BB00A195EF /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323B9102B6EB1BB00A195EF /* DestinationSearchView.swift */; };
+		7323B9132B6ED4D800A195EF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323B9122B6ED4D800A195EF /* ProfileView.swift */; };
+		7323B9152B6ED72D00A195EF /* ProfileRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323B9142B6ED72D00A195EF /* ProfileRowView.swift */; };
+		7323B9172B6ED8D300A195EF /* WishlistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323B9162B6ED8D300A195EF /* WishlistsView.swift */; };
+		7323B9192B6EDABC00A195EF /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323B9182B6EDABC00A195EF /* LoginButton.swift */; };
+		7323B91B2B6EDC8C00A195EF /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323B91A2B6EDC8C00A195EF /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +56,11 @@
 		7323B90C2B6E7DA100A195EF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7323B90E2B6E809500A195EF /* SectionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionGroup.swift; sourceTree = "<group>"; };
 		7323B9102B6EB1BB00A195EF /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
+		7323B9122B6ED4D800A195EF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7323B9142B6ED72D00A195EF /* ProfileRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRowView.swift; sourceTree = "<group>"; };
+		7323B9162B6ED8D300A195EF /* WishlistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistsView.swift; sourceTree = "<group>"; };
+		7323B9182B6EDABC00A195EF /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		7323B91A2B6EDC8C00A195EF /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +182,8 @@
 		7308F6B42B6D994300E5140F /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				7323B9122B6ED4D800A195EF /* ProfileView.swift */,
+				7323B9142B6ED72D00A195EF /* ProfileRowView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -193,6 +205,7 @@
 		7308F6B72B6D996900E5140F /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				7323B91A2B6EDC8C00A195EF /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -200,6 +213,7 @@
 		7308F6B82B6D996D00E5140F /* Wishlists */ = {
 			isa = PBXGroup;
 			children = (
+				7323B9162B6ED8D300A195EF /* WishlistsView.swift */,
 			);
 			path = Wishlists;
 			sourceTree = "<group>";
@@ -208,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				7308F6C42B6E62D100E5140F /* ListingImageCarouselView.swift */,
+				7323B9182B6EDABC00A195EF /* LoginButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -306,13 +321,18 @@
 				7308F6BC2B6D9AD300E5140F /* ListingItemView.swift in Sources */,
 				7323B90B2B6E7C3500A195EF /* BedroomView.swift in Sources */,
 				7323B9012B6E7AA600A195EF /* FeaturesSection.swift in Sources */,
+				7323B91B2B6EDC8C00A195EF /* MainTabView.swift in Sources */,
 				7323B8FF2B6E79EF00A195EF /* TextAndRatingView.swift in Sources */,
 				7323B9092B6E7B7F00A195EF /* PlaceOffersSection.swift in Sources */,
+				7323B9192B6EDABC00A195EF /* LoginButton.swift in Sources */,
 				7308F6BE2B6D9FA700E5140F /* Explore.swift in Sources */,
+				7323B9172B6ED8D300A195EF /* WishlistsView.swift in Sources */,
 				7323B9072B6E7B6C00A195EF /* BedroomsSection.swift in Sources */,
 				7308F6BA2B6D9A2200E5140F /* ExploreView.swift in Sources */,
 				7308F69D2B6D975300E5140F /* Airbnb_CloneApp.swift in Sources */,
+				7323B9152B6ED72D00A195EF /* ProfileRowView.swift in Sources */,
 				7308F6C52B6E62D100E5140F /* ListingImageCarouselView.swift in Sources */,
+				7323B9132B6ED4D800A195EF /* ProfileView.swift in Sources */,
 				7323B9032B6E7AB900A195EF /* FeatureRow.swift in Sources */,
 				7323B9052B6E7B4100A195EF /* HostSection.swift in Sources */,
 			);
