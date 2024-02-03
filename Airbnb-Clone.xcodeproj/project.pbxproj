@@ -26,6 +26,7 @@
 		7323B90B2B6E7C3500A195EF /* BedroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323B90A2B6E7C3500A195EF /* BedroomView.swift */; };
 		7323B90D2B6E7DA100A195EF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323B90C2B6E7DA100A195EF /* MapView.swift */; };
 		7323B90F2B6E809500A195EF /* SectionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323B90E2B6E809500A195EF /* SectionGroup.swift */; };
+		7323B9112B6EB1BB00A195EF /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7323B9102B6EB1BB00A195EF /* DestinationSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		7323B90A2B6E7C3500A195EF /* BedroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomView.swift; sourceTree = "<group>"; };
 		7323B90C2B6E7DA100A195EF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7323B90E2B6E809500A195EF /* SectionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionGroup.swift; sourceTree = "<group>"; };
+		7323B9102B6EB1BB00A195EF /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			children = (
 				7308F6B92B6D9A2200E5140F /* ExploreView.swift */,
 				7308F6BF2B6DACB300E5140F /* SearchAndFilterBar.swift */,
+				7323B9102B6EB1BB00A195EF /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				7323B90D2B6E7DA100A195EF /* MapView.swift in Sources */,
 				7308F6C22B6E621F00E5140F /* ListingDetailView.swift in Sources */,
 				7308F6C02B6DACB300E5140F /* SearchAndFilterBar.swift in Sources */,
+				7323B9112B6EB1BB00A195EF /* DestinationSearchView.swift in Sources */,
 				7308F6BC2B6D9AD300E5140F /* ListingItemView.swift in Sources */,
 				7323B90B2B6E7C3500A195EF /* BedroomView.swift in Sources */,
 				7323B9012B6E7AA600A195EF /* FeaturesSection.swift in Sources */,
@@ -454,9 +458,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.my.Airbnb-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -483,9 +490,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.my.Airbnb-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
