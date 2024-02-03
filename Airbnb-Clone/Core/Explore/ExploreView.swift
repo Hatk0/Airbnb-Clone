@@ -8,11 +8,17 @@ struct ExploreView: View {
                 
                 LazyVStack(spacing: 32) {
                     ForEach(Explore.explore, id: \.self) { listing in
-                        ListingItemView(explore: listing)
-                            .frame(height: 400)
-                            .cornerRadius(10)
+                        NavigationLink(value: listing) {
+                            ListingItemView(explore: listing)
+                                .frame(height: 400)
+                                .cornerRadius(10)
+                        }
                     }
-                }
+                 }
+            }
+            .navigationDestination(for: Explore.self) { listing in
+                ListingDetailView(explore: listing)
+                    .navigationBarBackButtonHidden()
             }
         }
     }
